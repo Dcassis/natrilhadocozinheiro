@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 1366px;
+  background-color: black;
+  color: white;
+}
+
+#navbarText li a{
+  color: white;
+  padding: 1rem;
+}
+
+#banner{
+  display:grid;
+  margin: 0 auto; 
+  align-items: center;
+}
+
+#sobre{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: justify;
+}
+
+#livro{
+  text-align: justify;
+}
