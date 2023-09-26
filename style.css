@@ -18,10 +18,9 @@
   align-items: center;
 }
 
-#sobre{
-  display:grid;
-  grid-template-columns: 1fr 2fr;
+#textChef{
   text-align: justify;
+  font-size: medium;
 }
 
 #livro{
