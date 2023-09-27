@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="bg-black">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid d-flex flex-row">
           <a class="navbar-brand" href="#"
@@ -30,8 +30,8 @@
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
+          </button >
+          <div  class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto mb-1 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
@@ -62,104 +62,147 @@
       </nav>
     </header>
 
-    <section class="container-fluid">
+    <section class="container-fluid bg-black">
       <img
         id="banner"
-        class="mx-auto w-100"
+        class="w-100"
         src="./assets/banner.jpg"
         alt="banner da trilha do cozinheiro"
       />
 
-      <h1 class="fs-3 text-center py-5">Sobre o Chef Marco Sousa</h1>
+      <section>
+      <h1 class="fs-2 text-center py-5">Sobre o Chef Marco Sousa</h1>
 
       <div
         id="sobre"
-        class="container-fluid-md mt-2 py-2 rounded-4"
-        style="background-color: #fff112"
+        class="container-fluid-md py-2 text-center rounded-4"
+        style="background-color: #fff112" 
       >
-        <div
-          class="container-fluid-md"
-          style="background-color: #fff112"
-        >
+      <div class="row">
+      <div class="col d-flex flex-wrap">
           <img
-            class="col-md-5 p-5 m-5 rounded-4" style="max-width: 80%;"
+            class="col p-5 w-75
+            m-5 rounded-4 bg-black justify-content-center"
             src="./assets/imgSobre.png"
             alt="foto do Chef Marco Sousa"
           />
-          <img
-            class="col-md-5 p-5 m-5 rounded-4" style="max-width: 80%;"
-            src="./assets/marco2.webp"
-            alt="foto do Chef Marco, vestido de preto na cozinha"
-          />
+      </div>
         
-        <div id="textChef" class="mx-3 p-4 rounded-4">
+        <div id="textChef" class="col m-5 p-5 rounded-4 bg-black">
           <p>
-            <b>Marco Antonio Martins de Sousa</b>, maranhense de nascimento,
-            Sergipano por destino, Marco Sousa chegou à cozinha por razões de
-            sobrevivência como ele mesmo brinca: “Eu era operador avançado de
-            painel de micro ondas.” Curioso aprendeu as primeiras receitas
-            sozinho mas sem deixar de consultar sua mãe, em saborosas à beira do
-            fogão.
+            <strong>Marco Antonio Martins de Sousa</strong> chegou à cozinha por razões de
+            sobrevivência: “Eu era operador avançado de
+            painel de micro-ondas.” Curioso, aprendeu as primeiras receitas
+            sozinho mas sem deixar de consultar sua mãe.
           </p>
 
           <p>
-            Formado inicialmente em Administração de Empresas, porém a vontade
-            de estar cozinhando para os amigos e família era maior e o levaram a
-            cursar a faculdade de Gastronomia em Aracaju. Depois de formado
-            embarcou para a Argentina e se especializou em Cozinha Internacional
-            pelo Instituto de Artes Culinárias Mausi Sebess. Ao retornar, cursou
-            Pós Graduado em Gestão de Segurança de Alimentos pelo SENAC.
+            Formado em Administração de Empresas e Gastronomia. É especializado em Cozinha Internacional pelo Instituto de Artes Culinárias Mausi Sebess, na Argentina e pós-graduado em Gestão de Segurança de Alimentos pelo SENAC. Lecionou no curso de Gastronomia de uma
+            universidade particular.
           </p>
           <p>
-            Em 2012 foi convidado para lecionar no curso de Gastronomia de uma
-            universidade particular, onde ministrava várias disciplinas. No
-            final de 2013 encarou o grande desafio de escrever e publicar um
-            livro de gastronomia. Casa de Farinha – Fábrica de Sonhos foi
-            lançado em Abril de 2014 pela Editora Gregory e rapidamente ganhou
-            destaque, sendo convidado juntamente com a co-autora, a expor e
-            fazer palestra na “Arena Cozinhando com Palavras” durante a 23ª
-            Bienal Internacional do Livro, na cidade de São Paulo.
+            Em 2014, lançou o livro: Casa de Farinha – Fábrica de Sonhos, pela Editora Gregory, sendo convidado a expor e palestrar na “Arena Cozinhando com Palavras” durante a 23ª Bienal Internacional do Livro, na cidade de São Paulo.
           </p>
 
           <p>
-            Adepto da gastronomia de transformação, seguidor dos estilos que
-            aliam tradições, de receitas e modernidade, tendo como referencias
-            os Chefs como Rodrigo Oliveira e Wanderson Medeiros, sua cozinha
-            sempre surpreende com mistura de elementos regionais e alta
-            gastronomia. Assim se define: inquieto, desafiador e ousado.
+            Inquieto, desafiador e ousado, é adepto da gastronomia de transformação, alia tradições de receitas e modernidade. Suas referencias são os Chefs Rodrigo Oliveira e Wanderson Medeiros. 
           </p>
 
           <p>
             Pesquisador e Palestrante, Consultor na área de Gastronomia.
             Personal Chef. Amante da Gastronomia e suas manifestações culturais.
-            Hoje, o chef Marco Sousa começa a expor suas idéias e conceitos
-            através da página/blog na internet e já prepara o seu segundo livro.
+            Hoje, expõe suas idéias e conceitos nesta página e prepara o segundo livro.
           </p>
         </div>
       </div>
+    </div>
     </section>
 
-    <section id="olivro">
-      <div class="container-fluid-md">
-        <div class="text-center mx-auto py-3 fs-3">
-          <h2>Livro: Casa de Farinha</h2>
-          <p>Fábrica de Sonhos</p>
-        
-          <div style="height:100vh; background-image: url(./assets/livro.webp); background-size: 100vw; background-position: center; background-repeat: no-repeat; background-attachment: fixed; "></div>
-          </div>
-          <div id="livro" class="container mx-auto px-5">
-          <p>
-          Lançado pela Editora Gregory em Abril de 2014, conta a história do principal alimento do brasileiro, a Mandioca. Relata a saga desta raiz desde a chegada dos portugueses ao Brasil, atravessa os séculos até os dias de hoje.</p>
-
-          <p> A parte principal do livro descreve a vida dos produtores de farinha, pessoas humildes e ricas em ensinamentos.
-          Ilustrado pela fotógrafa Acácia Barroso, o livro é uma boa opção de estudo e gastronomia, recheado com 28 receitas que utilizam os derivados da Mandioca.</p>
-
-          <p>Pode ser adquirido através do site: <a href="http://www.livrariagregory.com.br" target="_blank">http://www.livrariagregory.com.br</a></p>
-          <p>O livro foi destaque na 23ª Bienal Internacional do Livro de São Paulo em 2014, dentro da programação da Arena “Cozinhando com Palavras”</p>
-        </div>
+    <section class="bg-black">
+      <div class="text-center mx-auto py-5 fs-2 bg-black">
+        <h2>O Livro</h2>
+      </div>
+      <div class="container-fluid-md col-12 d-flex  flex-wrap justify-content-center  bg-black text-white rounded-4">  
+          <p class="text-white fw-bolder display-1 text-center mt-5">Casa de Farinha <br> <span class="fs-1" style="color:#fff112">
+            Fábrica de Sonhos</span></p>
+          <img class="bg-black p-2 m-5 rounded-4 text-center" src="./assets/livro.webp" alt="Foto da capa do livro: Casa de Farinha">
+          <figure class="text-center px-5">
+            <blockquote class="blockquote">
+              <p ID="livro" class="d-flex col-12 fw-large mx-auto p-3 border border-dark bg-black text-WHITE rounded-4">Lançado pela Editora Gregory em Abril de 2014, conta a história do principal alimento do brasileiro, a Mandioca. Relata a saga desta raiz desde a chegada dos portugueses ao Brasil, atravessa os séculos até os dias de hoje.<br>
+  
+              A parte principal do livro descreve a vida dos produtores de farinha, pessoas humildes e ricas em ensinamentos.
+              Ilustrado pela fotógrafa Acácia Barroso, o livro é uma boa opção de estudo e gastronomia, recheado com 28 receitas que utilizam os derivados da Mandioca.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Destaque na 23ª Bienal Internacional do Livro de São Paulo em 2014, na Arena “Cozinhando com Palavras”.<cite title="Source Title"></cite>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>
+    
+    <section id="artigos">
+      <div class="text-center mx-auto py-3 fs-2 bg-black">
+        <h2>Artigos</h2>
+      </div>
+      <div class="container-fluid-md">
+        <div class="grid gap-2 row-gap-3 row justify-content-center">
+          <div class="card" style="width: 14rem;">
+            <img src="./assets/convidadoVip.webp" class="card-img-top" alt="capa do artigo O convidado Vip">
+            <div class="card-body">
+              <p class="card-text text-black">O convidado vip</p>
+            </div>
+          </div>
+          <div class="card" style="width: 14rem;">
+            <img src="./assets/voceNasceuParaSer.webp" class="card-img-top" alt="capa do artigo Você voce Nasceu Para Ser cozinheiro">
+            <div class="card-body">
+              <p class="card-text text-black">Você nasceu para ser cozinheiro?</p>
+            </div>
+          </div>
+          <div class="card" style="width: 14rem;">
+            <img src="./assets/fazerGastronomiaOuComida.webp" class="card-img-top" alt="capa artigo fazer Gastronomia Ou Comida">
+            <div class="card-body">
+              <p class="card-text text-black">Fazer gastronomia ou fazer comida?</p>
+            </div>
+          </div>
+          <div class="card" style="width: 14rem;">
+            <img src="./assets/quemVeCara.jpg" class="card-img-top" alt="capa artigo quem vê cara não vê coração">
+            <div class="card-body">
+              <p class="card-text text-black">Quem vê cara não vê coração</p>
+            </div>
+          </div>
+          <div class="card" style="width: 14rem;">
+            <img src="./assets/quemGuardaTem.webp" class="card-img-top" alt="capa artigo quem guarda tem">
+            <div class="card-body">
+              <p class="card-text text-black">Quem guarda tem</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row grid justify-content-center gap-2 mt-3">
+          <div class="card" style="width: 14rem;">
+            <img src="./assets/vivaOTorresmo.webp" class="card-img-top" alt="capa artigo Viva o torresmo">
+            <div class="card-body">
+              <p class="card-text text-black">Viva o Torresmo entre Confit e Nitrogênio líquido</p>
+            </div>
+          </div>
+          <div class="card" style="width: 14rem;">
+            <img src="./assets/tamanhoBrasil.webp" class="card-img-top" alt="capa artigo QUAL O VERDADEIRO TAMANHO DO BRASIL ?">
+              <p class="card-text text-black">Qual o Verdadeiro Tamanho do Brasil? </p>
+          </div>
+          <div class="card" style="width: 14rem;">
+            <img src="./assets/mundoTransformacao.webp" class="card-img-top" alt="capa artigo o mundo está em transformção">
+            <div class="card-body">
+              <p class="card-text text-black">O mundo está em transformação, a gastronomia não!!! </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
